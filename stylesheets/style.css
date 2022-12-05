@@ -14,7 +14,10 @@ body {
   overflow-x: hidden;
 }
 
-nav, .home, .container,  .expore{
+nav,
+.home,
+.container,
+.expore {
   padding: 0 5em;
 }
 
@@ -235,7 +238,7 @@ nav ul {
   left: 0;
   top: 5em;
   /*top: 2835px;*/
-  padding:3em 2.5em;
+  padding: 3em 2.5em;
   margin: 0 auto;
   background: linear-gradient(99.99deg, #4693ED -26.21%, #79C2D2 22.16%, rgba(192, 86, 9, 0.49) 111.62%);
 }
@@ -366,7 +369,7 @@ nav ul {
 }
 
 .explore {
-  margin: 2em 0 ;
+  margin: 2em 0;
   position: relative;
   width: 100%;
   height: 65px;
@@ -378,10 +381,10 @@ nav ul {
   line-height: 65px;
   /* identical to box height */
   color: #333333;
-  
+
 }
 
-.explore-container{
+.explore-container {
   position: relative;
   display: flex;
   align-items: center;
@@ -389,17 +392,17 @@ nav ul {
   padding: 0.5em 2em;
 }
 
-.explore-container1{
+.explore-container1 {
   border-top: 0.5px solid #333333;
-  border-bottom:0.5px solid #333333;
+  border-bottom: 0.5px solid #333333;
 }
 
-.explore-container2{
-  border-bottom:0.5px solid #333333;
+.explore-container2 {
+  border-bottom: 0.5px solid #333333;
   margin-bottom: 2em;
 }
 
-.top-creator{
+.top-creator {
   position: relative;
   /*width: 1440px;  922 height*/
   width: 100%;
@@ -410,7 +413,7 @@ nav ul {
   /*padding: 3em 28em 0 3em;*/
 }
 
-.top-creator h2{
+.top-creator h2 {
   font-family: Clash Display;
   font-size: 55px;
   font-weight: 600;
@@ -420,11 +423,11 @@ nav ul {
   margin: 1em 0 0 1em;
 }
 
-.top-creator ul{
+.top-creator ul {
   margin: 3em 5em 0 0;
 }
 
-.top-creator ul li{
+.top-creator ul li {
   font-family: Clash Display;
   font-size: 40px;
   font-weight: 400;
@@ -434,12 +437,12 @@ nav ul {
   list-style-type: none;
 }
 
-.top-creator-container{
+.top-creator-container {
   display: flex;
   justify-content: space-between;
 }
 
-.top-creator-text{
+.top-creator-text {
   position: relative;
   width: 1148px;
   height: 252px;
@@ -454,13 +457,13 @@ nav ul {
   margin-left: 2em;
 }
 
-.newsletter{
-  box-sizing: border-box; 
+.newsletter {
+  box-sizing: border-box;
   position: relative;
-  width: 80%;
+  width: 90%;
   /*height: 320px;
   left: 54px;*/
-  top: 30em;  
+  top: 30em;
   padding: 3em 2em;
   margin: 4em auto;
   border: 1px solid #333333;
@@ -470,40 +473,105 @@ nav ul {
   flex-direction: column;
 }
 
-.newsletter h3{
-font-family: 'Baskervville', serif;
-font-style: normal;
-font-weight: 400;
-font-size: 30.2105px;
-line-height: 39px;
-color: #333333;
-margin: 0 auto;
+.newsletter h3 {
+  font-family: 'Baskervville', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30.2105px;
+  line-height: 39px;
+  color: #333333;
+  margin: 0 auto;
 }
 
-.newsletter p{
-font-family: 'Satoshi';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 43px;
-color: #333333;
+.newsletter p {
+  font-family: 'Satoshi';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 43px;
+  color: #333333;
 }
 
-form{
+form {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 1em;
 }
 
-.newsletter button{
+.newsletter button {
   color: #ffffff;
   background-color: #333;
   padding: 1.3em 4em;
+  font-size: 13px;
+  font-weight: 400;
 }
 
-.newsletter input{
+.newsletter input {
   padding: 1.3em 10em;
   border: 1px solid #000000;
   margin-right: 3em;
+  font-family: Baskervville;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: left;
+  color: #333;
+}
+
+
+footer {
+  position: relative;
+  top: 30em;
+  padding: 0 7em;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer ul li{
+  list-style-type: none;
+  padding: 0.5em 0;
+}
+
+.footer ul li a{
+  color: black;
+  text-decoration: none;
+  font-family: Satoshi;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.footer ul li a img{
+  height: 50px;
+}
+
+.footer-logo{
+  font-family: Clash Display;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 59px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.paragraph-container{
+  padding:0.2em;
+}
+
+#paragraph{
+  font-family: Rubik;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #333;
+  margin: 2.5em auto;
 }

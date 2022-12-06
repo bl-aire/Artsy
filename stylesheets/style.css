@@ -575,3 +575,20 @@ footer {
   color: #333;
   margin: 2.5em auto;
 }
+
+
+/* PRODUCT PAGE */
+
+.product-main{
+  padding: 4em 4em;
+}
+
+.products{
+  display: flex;
+  justify-content: space-between;
+}
+
+.products img{
+  width: 241px;
+  height: 280px; 
+}

@@ -16,11 +16,14 @@ let price = document.getElementById("");
 
     // Storing data in form of JSON
     var data = await response.json();
-    console.log(data);
+    
+    let products = data.products.slice(0, 9);
+
+    console.log(products);
     //if (response) {
       //hideloader();
     //}
-    show(data);
+    show(products);
 
   }
   // Calling that async function
@@ -31,7 +34,7 @@ let price = document.getElementById("");
     //.getElementById('loading').style.display = 'none';
   //}
   // Function to define innerHTML for HTML table
-  function show(data) {
+  function show(products) {
     /*let card =
       `<div>
         <img id="img" src="" alt="">
@@ -41,12 +44,12 @@ let price = document.getElementById("");
       let card = ''
 
     // Loop to access all rows
-    for (let a of data.products) {
+    for (let a of products) {
       card += 
-      `<div class="col-md-4">
+      `<div class="col-md-4 product-card">
         <img id="img" src= ${a.url} alt="">
         <p id="name">${a.name}</p>
-        <h3 id="price">$${a.price.usd}</h3>
+        <p id="price">$${a.price.usd}</p>
       </div>`;
     }
     // Setting innerHTML as tab variable

@@ -623,7 +623,7 @@ footer {
   display: block;
 }
 
-.form-check, .filter-all a{
+.form-check, .filter-all a, .range{
   font-family: Satoshi;
   font-size: 24px;
   font-weight: 400;

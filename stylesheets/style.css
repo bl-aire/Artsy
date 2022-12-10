@@ -146,21 +146,23 @@ nav ul {
   align-items: center;
 }
 
-.fade {
+.fade{
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
 }
 
 
 
 @keyframes fade {
   from {
-    opacity: .4
+    opacity: 0.6;
   }
 
   to {
-    opacity: 1
+    opacity: 1;
   }
+
 }
 
 .img__wrap {
@@ -591,4 +593,40 @@ footer {
 .products img{
   width: 241px;
   height: 280px; 
+}
+
+.filter h2{
+  font-family: Satoshi;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.category {
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-family: Satoshi;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.filter-form{
+  display: block;
+}
+
+.form-check{
+  font-family: Satoshi;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0.4em 0;
 }

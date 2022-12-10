@@ -1,27 +1,3 @@
-
-/*let slideIndex = 0;
-//showSlides();
-
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  //let dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) { slideIndex = 1 }
-  //for (i = 0; i < dots.length; i++) {
-  //dots[i].className = dots[i].className.replace(" active", "");
-  //}
-  slides[slideIndex - 1].style.display = "block";
-  //dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
-}*/
-
-
-
-
 let img = document.getElementById("img");/*
 let name = document.getElementById("");
 let price = document.getElementById("");
@@ -56,12 +32,13 @@ let price = document.getElementById("");
   //}
   // Function to define innerHTML for HTML table
   function show(data) {
-    let card =
+    /*let card =
       `<div>
         <img id="img" src="" alt="">
-        <p id="name"></p>
+        <p id="name">hi</p>
         <h3 id="price"></h3>
-      </div>`;
+      </div>`;*/
+      let card = ''
 
     // Loop to access all rows
     for (let a of data.products) {
@@ -69,7 +46,7 @@ let price = document.getElementById("");
       `<div class="col-md-4">
         <img id="img" src= ${a.url} alt="">
         <p id="name">${a.name}</p>
-        <h3 id="price">${a.price.usd}</h3>
+        <h3 id="price">$${a.price.usd}</h3>
       </div>`;
     }
     // Setting innerHTML as tab variable

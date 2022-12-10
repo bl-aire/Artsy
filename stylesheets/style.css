@@ -602,7 +602,8 @@ footer {
   line-height: 50px;
   letter-spacing: 0em;
   text-align: left;
-
+  padding: 0.2em;
+  border-bottom: 6px solid #AFB091;
 }
 
 .category {
@@ -615,13 +616,14 @@ footer {
   line-height: 44px;
   letter-spacing: 0em;
   text-align: left;
+  margin: 2em 0 1em 0;
 }
 
 .filter-form{
   display: block;
 }
 
-.form-check{
+.form-check, .filter-all a{
   font-family: Satoshi;
   font-size: 24px;
   font-weight: 400;
@@ -629,4 +631,19 @@ footer {
   letter-spacing: 0em;
   text-align: left;
   margin: 0.4em 0;
+}
+
+.filter-all{
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-all a{
+  color: #000000;
+  text-decoration: none;
+  width: fit-content;
+}
+
+.filter-all a:hover{
+  border-bottom: 2px solid #000000;
 }

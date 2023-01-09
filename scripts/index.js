@@ -46,11 +46,13 @@ let price = document.getElementById("");
     // Loop to access all rows
     for (let a of products) {
       card += 
-      `<div class="col-md-4 product-card">
-        <img id="img" src= ${a.url} alt="">
-        <p id="name">${a.name}</p>
-        <p id="price">$${a.price.usd}</p>
-      </div>`;
+      `<a href="./detail.html" class="col-md-4 product-card">
+        <div>
+          <img id="img" src= ${a.url} alt="">
+          <p id="name">${a.name}</p>
+          <p id="price">$${a.price.usd}</p>
+        </div>
+      </a>`;
     }
     // Setting innerHTML as tab variable
     document.getElementById("products").innerHTML = card;

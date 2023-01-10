@@ -750,6 +750,46 @@ color: #333333;
   background: #FFFFFF;
 box-shadow: 4px 4px 64px rgba(0, 0, 0, 0.08);
 border-radius: 15px;
+width: 80%;
+margin: 4em auto;
+padding: 0.6em 2em;
+}
+
+.circle img{
+  border: 1px solid #000000;
+  margin: 0 0.4em;
+  padding: 5px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.gallery-card{
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 300px;
+}
+
+.g-img{
+  height: 400px;
+  width: 400px;
+}
+
+.love{
+  height:40px;
+  width: 40px;
+}
+
+.g-details{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.g-cost{
+  display: flex;
+  align-items: center;
 }
 
 @media screen and (min-width: 768px) {

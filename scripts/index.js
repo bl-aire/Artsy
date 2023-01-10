@@ -1,10 +1,7 @@
-let img = document.getElementById("img");/*
-let name = document.getElementById("");
-let price = document.getElementById("");
-*/
+let img = document.getElementById("img");
 
   let carouselUrl = "https://gist.githubusercontent.com/eniiku/65a95533de1f005eee35d5eb91f3e141/raw/439bc2dd8693b490539eae236918f4a53dd17457/carousel.json";
-  let auctionUrl = "https://gist.githubusercontent.com/eniiku/65a95533de1f005eee35d5eb91f3e141/raw/c7188e070a8670a86883ff57224dcad277814761/auction.json";
+  //let auctionUrl = "https://gist.githubusercontent.com/eniiku/65a95533de1f005eee35d5eb91f3e141/raw/c7188e070a8670a86883ff57224dcad277814761/auction.json";
   let dropsUrl = "https://gist.githubusercontent.com/eniiku/65a95533de1f005eee35d5eb91f3e141/raw/c7188e070a8670a86883ff57224dcad277814761/drops.json";
   let productsUrl = "https://gist.githubusercontent.com/eniiku/65a95533de1f005eee35d5eb91f3e141/raw/c7188e070a8670a86883ff57224dcad277814761/products.json";
 
@@ -20,28 +17,17 @@ let price = document.getElementById("");
     let products = data.products.slice(0, 9);
 
     console.log(products);
-    //if (response) {
-      //hideloader();
-    //}
+
     show(products);
 
   }
   // Calling that async function
   getapi(productsUrl);
 
-  // Function to hide the loader
-  //function hideloader() {
-    //.getElementById('loading').style.display = 'none';
-  //}
   // Function to define innerHTML for HTML table
   function show(products) {
-    /*let card =
-      `<div>
-        <img id="img" src="" alt="">
-        <p id="name">hi</p>
-        <h3 id="price"></h3>
-      </div>`;*/
-      let card = ''
+
+    let card = ''
 
     // Loop to access all rows
     for (let a of products) {
@@ -57,6 +43,5 @@ let price = document.getElementById("");
     // Setting innerHTML as tab variable
     document.getElementById("products").innerHTML = card;
   }
-//};
 
 

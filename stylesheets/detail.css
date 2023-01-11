@@ -23,17 +23,25 @@
   text-decoration: none;
   color: #4693ED;
   }
+
+  .img-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   
   
   #detail-container{
     border: 1px solid #000000;
-    width: 80%;
+    width: 90%;
     margin: 1em auto;
   }
   
   #det-img{
-    height: 70vh;
-    padding: 2em 1em;
+    padding: 2em 0;
+    height: 740px;
+width:480px;
   }
   
   .header{
@@ -72,22 +80,28 @@
     border-radius: 50%;
   }
   
-  .gallery{
-    display: flex;
-  }
-  
   .gallery-card{
     display: flex;
     flex-direction: column;
     height: 400px;
-    width: 400px;
+    width:fit-content;
     border: 1px solid #000000;
+    margin: 0 2em 0 2em;
+  }
+
+  .gcard-container{
+    width:80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
   .g-img{
     height: 300px;
     width: 300px;
-    margin: auto;
+    
   }
   
   .love{
@@ -99,6 +113,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width:80%;
+    margin: auto;
   }
   
   .g-cost{
@@ -119,12 +135,16 @@
       width: 50%;
     }
   
-  
     #product-details div{
       padding-left: 2em;
     }
   
     #product-details h3{
       padding: 0.5em 0;
+    }
+
+    .gallery{
+      display: flex;
+      justify-content: center;
     }
   }

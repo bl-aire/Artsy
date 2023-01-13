@@ -11,22 +11,36 @@
 
 }
 
-#product-details{
-  
-}
-
-.border-bottom, #exception{
-  
-}
-
 #exception {
   padding: 2em 1em;
   text-align: left;
 }
 
+.views {
+  font-family: Satoshi;
+  font-size: 1.4em;
+  font-weight: 500;
+  line-height: 27px;
+}
+
+.made-in {
+  font-family: Satoshi;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 23px;
+  margin-top: 15px;
+}
+
+.counter {
+  font-family: Satoshi;
+  font-size: 1.4em;
+  font-weight: 500;
+  line-height: 45px;
+}
+
 .border-bottom b {
   font-family: Satoshi;
-  font-size: 30px;
+  font-size: 1.7em;
   font-weight: 400;
   line-height: 29px;
   letter-spacing: 0em;
@@ -34,7 +48,7 @@
 
 .border-bottom span a {
   font-family: Satoshi;
-  font-size: 30px;
+  font-size: 1.5em;
   font-weight: 500;
   line-height: 29px;
   letter-spacing: 0em;
@@ -49,6 +63,12 @@
   align-items: center;
 }
 
+.subtract,
+.add {
+  font-size: 1.5em;
+  background-color: #FFFFFF;
+  margin: 0 0 1em 0;
+}
 
 #detail-container {
   border: 1px solid #000000;
@@ -64,7 +84,7 @@
 
 .header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -76,7 +96,7 @@
   line-height: 80%;
   color: #333333;
   text-align: left;
-  padding:0 1em 0 0;
+  padding: 0 1.5em 0 0;
 }
 
 .explore-more {
@@ -86,9 +106,9 @@
   background: #FFFFFF;
   box-shadow: 4px 4px 64px rgba(0, 0, 0, 0.08);
   border-radius: 15px;
-  width: 80%;
+  width: 90%;
   margin: 4em auto;
-  padding: 0.6em 2em;
+  padding: 0.8em 2em;
 }
 
 .circle img {
@@ -137,14 +157,20 @@
   margin: auto;
 }
 
+.g-details p {
+  font-family: Satoshi;
+  font-size: 1.2em;
+  font-weight: 500;
+  line-height: 31px;
+}
+
 .g-cost {
   display: flex;
   align-items: center;
 }
 
 .add-to-cart {
-  font-family: 'Inter';
-  /*Not available*/
+  font-family: Satoshi;
   font-weight: 500;
   font-size: 1.2em;
   line-height: 31px;

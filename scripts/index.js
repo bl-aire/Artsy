@@ -34,7 +34,7 @@ let img = document.getElementById("img");
       card += 
       `<a href="./detail.html" class="col-md-4 product-card">
         <div>
-          <img id="img" src= ${a.url} alt="">
+          <img id="img" src= ${a.url} alt="item">
           <p id="name">${a.name}</p>
           <p id="price">$${a.price.usd}</p>
         </div>

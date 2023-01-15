@@ -45,3 +45,48 @@ let img = document.getElementById("img");
   }
 
 
+
+
+
+
+
+    // Defining async function
+    async function getapi(dropsUrl) {
+
+      // Storing response
+      const response = await fetch(dropsUrl);
+  
+      // Storing data in form of JSON
+      var dropData = await response.json();
+  
+      console.log(dropData);
+  
+      show(dropData);
+  
+    }
+    // Calling that async function
+    getapi(dropsUrl);
+  
+    // Function to define innerHTML for HTML table
+    function show(dropData) {
+  
+      let dropCard = ''
+  
+      // Loop to access all rows
+      for (let b of dropData) {
+        dropCard += 
+        `
+        <div>
+          <p>${b.date.month} ${b.date.day} at ${b.date.time} ${b.date.timezone}</p>
+          <h3>${b.title}</h3>
+          <p>Lorem ipsum dolor sit amet consectetur. Amet odio a aenean quis vitae tempus. Sed nunc tempus aliquet lectus ut vulputate.</p>
+          <p>Creator: <span>${b.creator}</span>
+        </div>
+        
+        
+        
+        `;
+      }
+      // Setting innerHTML as tab variable
+      document.querySelector(".drop-details").innerHTML = dropCard;
+    }

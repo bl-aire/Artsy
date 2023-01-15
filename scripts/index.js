@@ -48,8 +48,6 @@ let img = document.getElementById("img");
 
 
 
-
-
     // Defining async function
     async function getapi(dropsUrl) {
 
@@ -58,7 +56,7 @@ let img = document.getElementById("img");
   
       // Storing data in form of JSON
       var dropData = await response.json();
-  
+
       console.log(dropData);
   
       show(dropData);
@@ -73,20 +71,20 @@ let img = document.getElementById("img");
       let dropCard = ''
   
       // Loop to access all rows
-      for (let b of dropData) {
+
+      for (let details of dropData) {
         dropCard += 
         `
         <div>
-          <p>${b.date.month} ${b.date.day} at ${b.date.time} ${b.date.timezone}</p>
-          <h3>${b.title}</h3>
+          <p>${details.date.month} ${details.date.day} at ${details.date.time} ${details.date.timezone}</p>
+          <h3>${details.title}</h3>
           <p>Lorem ipsum dolor sit amet consectetur. Amet odio a aenean quis vitae tempus. Sed nunc tempus aliquet lectus ut vulputate.</p>
-          <p>Creator: <span>${b.creator}</span>
+          <p>Creator: <span>${details.creator}</span>
         </div>
-        
-        
         
         `;
       }
       // Setting innerHTML as tab variable
-      document.querySelector(".drop-details").innerHTML = dropCard;
+      document.getElementById(".drop-details").innerHTML = dropCard;
     }
+

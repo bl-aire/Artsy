@@ -3,7 +3,7 @@
     padding: 1em;
 }
 
-.drop-details{
+.drop-details {
     margin-top: 2em;
     display: flex;
     justify-content: space-between;
@@ -18,20 +18,27 @@
     padding: 10px;
     text-align: center;
     color: #fff;
+    margin-bottom: 1em;
 }
 
-.status1{
-    background-color:#4693ED;
+.status1 {
+    background-color: #4693ED;
 }
 
-.status2{
-    background-color:#3EA03B;
+.status2 {
+    background-color: #3EA03B;
 }
 
-.status3{
-    background-color:#999EA5;
+.status3 {
+    background-color: #999EA5;
 }
 
+.date {
+    font-family: Satoshi;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+}
 
 
 

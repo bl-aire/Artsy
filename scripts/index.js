@@ -2,7 +2,7 @@ let img = document.getElementById("img");
 
   let carouselUrl = "https://gist.githubusercontent.com/eniiku/65a95533de1f005eee35d5eb91f3e141/raw/439bc2dd8693b490539eae236918f4a53dd17457/carousel.json";
   //let auctionUrl = "https://gist.githubusercontent.com/eniiku/65a95533de1f005eee35d5eb91f3e141/raw/c7188e070a8670a86883ff57224dcad277814761/auction.json";
-  let dropsUrl = "https://gist.githubusercontent.com/eniiku/65a95533de1f005eee35d5eb91f3e141/raw/c7188e070a8670a86883ff57224dcad277814761/drops.json";
+  //let dropsUrl = "https://gist.githubusercontent.com/eniiku/65a95533de1f005eee35d5eb91f3e141/raw/c7188e070a8670a86883ff57224dcad277814761/drops.json";
   let productsUrl = "https://gist.githubusercontent.com/eniiku/65a95533de1f005eee35d5eb91f3e141/raw/c7188e070a8670a86883ff57224dcad277814761/products.json";
 
   // Defining async function
@@ -34,7 +34,7 @@ let img = document.getElementById("img");
       card += 
       `<a href="./detail.html" class="col-md-4 product-card">
         <div>
-          <img id="img" src= ${a.url} alt="item">
+          <img id="img" src= ${a.url} alt="item" class="img-fluid">
           <p id="name">${a.name}</p>
           <p id="price">$${a.price.usd}</p>
         </div>

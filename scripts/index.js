@@ -43,3 +43,14 @@ let img = document.getElementById("img");
     // Setting innerHTML as tab variable
     document.getElementById("products").innerHTML = card;
   }
+
+
+  
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+
+

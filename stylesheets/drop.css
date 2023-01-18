@@ -40,6 +40,26 @@
     line-height: 27px;
 }
 
+.creator{
+    font-family: Satoshi;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+}
+
+.creator-name{
+    color: #006CA2;
+}
+
+.drop-details button{
+    font-family: Satoshi;
+font-size: 20px;
+font-weight: 400;
+line-height: 31px;
+color: #006CA2;
+border-bottom: 2px solid #006CA2;
+background: none;
+}
 
 
 @media screen and (min-width: 768px) {

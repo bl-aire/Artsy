@@ -493,6 +493,12 @@ form {
   font-weight: 400;
 }
 
+/*.newsletter button:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+  margin: 1px solid #000;
+}*/
+
 .newsletter input {
   padding: 1.3em 10em;
   border: 1px solid #000000;

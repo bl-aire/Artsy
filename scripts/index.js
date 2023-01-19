@@ -46,11 +46,22 @@ let img = document.getElementById("img");
 
 
   
-  function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-  }
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
+}
+
+// CHECKOUT
+function openDetails(checkout) {
+  var i;
+  var x = document.getElementsByClassName("checkout");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  document.getElementById(checkout).style.display = "block"; 
 }
 
 

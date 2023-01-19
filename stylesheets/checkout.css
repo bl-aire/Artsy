@@ -1,3 +1,24 @@
+.w3-button {
+    font-family: Satoshi;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    background: none;
+    margin: 2em 0.3em 0 0.3em;
+    color: #888888;
+}
+
+.w3-button:hover{
+    color:#000;
+    border-bottom: 1px solid #000;
+}
+
+.w3-bar{
+    /*border-bottom: 1px solid #888888;*/
+    width: fit-content;
+    margin: 0 auto;
+}
+
 .item-summary {
     display: flex;
     justify-content: space-between;
@@ -7,7 +28,7 @@
     margin: 1.5em 0 0 0;
 }
 
-.summary3{
+.summary3 {
     border-bottom: 1px solid #D9D9D9;
 }
 
@@ -60,15 +81,51 @@
     color: #292929;
 }
 
-.remove-item{
+.remove-item {
     color: rgba(255, 0, 0, 0.659);
 }
 
-.checkout-summary{
-    
+.checkout-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.checkout-summary, .flex{
+.checkout-summary {
     display: flex;
     justify-content: space-between;
+    padding: 2em;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    font-family: Satoshi;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 38px;
+}
+
+.flex2 {
+    color: #888888;
+}
+
+.checkout-buttons button {
+    background-color: #3341C1;
+    padding: 0.8em 3em;
+    color: #fff;
+    font-family: Satoshi;
+    font-size: 1.2em;
+}
+
+.checkout-buttons a {
+    font-family: Satoshi;
+    font-size: 1.2em;
+    font-weight: 500;
+    line-height: 44px;
+    color: #006CA2;
+}
+
+.buttons button {
+    background: none;
 }

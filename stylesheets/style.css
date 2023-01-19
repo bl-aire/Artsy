@@ -327,13 +327,9 @@ nav ul {
   color: #fff;
 }
 
-.auction-details {
-  padding: 15em 3em 10em;
-}
-
 .auction-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-end;
 }
 
@@ -571,11 +567,6 @@ footer {
 }
 
 
-
-
-
-
-
 .sidenav {
   height: 100%;
   width: 0;
@@ -625,11 +616,19 @@ footer {
   .posts {
     padding: 0 1em;
   }
-  
-  
+
+ 
+  .auction-details {
+    padding: 15em 0 10em;
   }
+  
+  
+}
 
   @media screen and (max-width: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+    .auction-details{
+      width: 90%;
+    }
   }

@@ -195,25 +195,21 @@
                     <input type="text" class="form-control" id="inputCity" aria-describedby="cityHelp">
                 </div>
 
-                <div>
+                <div class="country-flex">
                     <div class="form-group">
                         <label for="inputCountry">Country</label>
                         <input type="text" class="form-control" id="inputCountry" aria-describedby="countryHelp">
                     </div>
                     <div class="form-group">
                         <label for="inputPostalCode">Postal code</label>
-                        <input type="text" class="form-control" id="inputPostalCode" aria-describedby="postalCodeHelp">
+                        <input type="number" class="form-control" id="inputPostalCode" aria-describedby="postalCodeHelp">
                     </div>
                 </div>
+                
+            </form>
 
+            <button class="btn btn-primary" onclick="openDetails('Payment details')">Proceed to payment</button> <!--not functioning in form-->
 
-
-           
-               
-        
-
-                <button type="submit" class="btn btn-primary">Proceed to payment</button>
-              </form>
         </div>
 
 

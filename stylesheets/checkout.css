@@ -136,8 +136,8 @@ form{
     flex-direction: column;
     align-items: flex-start;
     color: #888888;
-    height: 80vh;
-    margin: 7em 0;
+    height: 100vh;
+    margin: 1em 0;
     font-family: Satoshi;
     font-size: 1.3em;
     font-weight: 400;
@@ -148,14 +148,23 @@ form{
     display: flex;
 }
 
-.form-group, .form-check, .country-flex, .btn{
-    margin: 1em 0;
-    width: 80%;
+.form-group, .country-flex, .btn{
+    margin: 1em 0 0 0;
+    width: 100%;
     align-self: center;
+}
+
+.form-check{
+    width: 100%;
+    align-self: center;
+    margin: 0.2em 0 0 0;
 }
 
 .btn{
     background-color: #3341C1;
     padding: 0.5em 0;
-    margin: 0 auto;
+}
+
+#Details{
+    padding: 0 5em;
 }

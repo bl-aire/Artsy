@@ -1,7 +1,30 @@
-.thanks-main{
+.thanks-main {
     background-image: url("../assets/Group1.png");
-    background-position:0;
+    background-position: 0;
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size: contain;
     height: 500px;
+}
+
+.thanks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.greeting {
+    font-family: Satoshi;
+    font-size: 41px;
+    font-weight: 500;
+    line-height: 64px;
+}
+
+.message {
+    font-family: Satoshi;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: left;
 }

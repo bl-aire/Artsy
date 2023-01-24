@@ -50,7 +50,7 @@ nav ul {
 .ul li {
   margin: 0 0.5em;
   font-family: 'Satoshi', sans-serif;
-  font-size: 3vw;
+  /*font-size: 3vw;*/
   font-weight: 400;
   line-height: 32px;
   letter-spacing: 0em;
@@ -61,7 +61,7 @@ nav ul {
 .ul li a {
   color: #292929;
   text-decoration: none;
-  font-size: 2vw;
+  font-size: 24px;
 }
 
 .ul li a:hover {
@@ -72,7 +72,7 @@ nav ul {
 
 .home h1 {
   font-family: "Clash Display", sans-serif;
-  font-size: 6vw;
+  font-size: 80px;
   font-weight: 600;
   letter-spacing: 0px;
   margin-top: 1em;
@@ -81,7 +81,7 @@ nav ul {
 
 .home p {
   font-family: "Satoshi", sans-serif;
-  font-size: 3vw;
+  font-size: 28px;
   font-weight: 500;
   /*line-height: 44px;*/
   color: #292929;
@@ -295,10 +295,6 @@ nav ul {
   font-size: 29px;
   font-weight: 400;
   line-height: 33px;
-  letter-spacing: 0em;
-  text-align: left;
-
-
 }
 
 .numero-uno {
@@ -307,8 +303,6 @@ nav ul {
   font-size: 68px;
   font-weight: 400;
   line-height: 77px;
-  letter-spacing: 0em;
-  text-align: left;
 }
 
 .time {
@@ -316,8 +310,6 @@ nav ul {
   font-size: 13px;
   font-weight: 400;
   line-height: 20px;
-  letter-spacing: 0em;
-  text-align: left;
   color: #fff;
 }
 
@@ -327,7 +319,6 @@ nav ul {
   font-weight: 500;
   line-height: 21px;
   letter-spacing: 0.065em;
-  text-align: left;
   color: #fff;
 }
 
@@ -402,7 +393,7 @@ nav ul {
   width: 100%;
   height: 850px;
   left: 0px;
-  top: 28em;
+  top: 15em;
   background: #E2E2E2;
 }
 
@@ -593,7 +584,7 @@ footer {
 
  
   .auction-details {
-    padding: 15em 0 10em;
+    padding: 3em 0 5em;
   }
   
   

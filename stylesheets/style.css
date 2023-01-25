@@ -21,7 +21,7 @@ body {
 nav,
 .home,
 .container,
-.expore {
+.expore, .footer {
   padding: 0 2em;
 }
 
@@ -504,13 +504,12 @@ nav ul {
 footer {
   position: relative;
   top: 15em;
-  padding: 0 7em;
 }
 
-.footer{
+/*.footer{
   display: flex;
   justify-content: space-between;
-}
+}*/
 
 .footer ul li{
   list-style-type: none;
@@ -533,7 +532,7 @@ footer {
 }
 
 .footer ul li a img{
-  height: 50px;
+  height: 40px;
 }
 
 .footer-logo{
@@ -541,17 +540,15 @@ footer {
   font-size: 3em;
   font-weight: 600;
   line-height: 59px;
-  letter-spacing: 0px;
-  text-align: left;
 }
 
 .paragraph-container{
-  padding:0.2em;
+  padding:0.2em 2em;
 }
 
 #paragraph{
   font-family: Rubik;
-  font-size: 1.5em;
+  font-size: 1em;
   font-weight: 500;
   line-height: 21px;
   letter-spacing: -0.02em;
@@ -594,7 +591,11 @@ footer {
     align-items: center;
     flex-direction: column;
   }
-  
+
+  .footer{
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 

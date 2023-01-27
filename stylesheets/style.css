@@ -25,7 +25,11 @@ nav,
   padding: 0 2em;
 }
 
-nav {
+#header{
+  box-shadow: none;
+}
+
+/*nav {
   display: flex;
   justify-content: space-around;
 }
@@ -34,33 +38,72 @@ nav ul {
   display: flex;
   list-style-type: none;
   justify-content: space-evenly;
-}
+}*/
 
 .logo {
   font-family: 'STIX Two Text', serif;
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: 700;
   line-height: 90px;
-  letter-spacing: 0px;
-  text-align: left;
+  color: #000000;
+
+}
+
+.mdl-layout__header-row{
+  background-color: #fff;
 }
 
 .logo2{
   font-family: 'STIX Two Text', serif;
 }
 
-.ul li {
-  margin: 0 0.5em;
+
+.mdl-navigation__link{
   font-family: 'Satoshi', sans-serif;
-  /*font-size: 3vw;*/
   font-weight: 400;
   line-height: 32px;
-  letter-spacing: 0em;
-  text-align: left;
-  align-self: center;
 }
 
-.ul li a {
+#link1, #link2, #link3{
+  color: #000000;
+  font-size: 1.5em;
+}
+
+#drawer{
+  background-color: #000000;
+}
+
+#drawer-link a, #drawer span{
+  color: #fff;
+  font-size: 1.3em;
+}
+
+#drawer span{
+  font-family: 'STIX Two Text', serif;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.mdl-layout__header .mdl-layout__drawer-button i {
+  color: #000;
+  background-color: #fff;
+  height:100%;
+  width: 100%;
+  font-size: 1.5em;
+}
+
+/*.material-icons {
+  color: red !important;
+}*/
+
+
+
+
+
+
+
+
+/*.ul li a {
   color: #292929;
   text-decoration: none;
   font-size: 1.2em;
@@ -73,16 +116,21 @@ nav ul {
 .ul li img{
   height: 1.8em;
 }
+*/
 
+.mdl-layout__content{
+  position: relative;
+  margin: 4em 0 0 0;
+}
 
 
 .home h1 {
   font-family: "Clash Display", sans-serif;
   font-size: 3.5em;
   font-weight: 600;
-  letter-spacing: 0px;
-  margin-top: 1em;
+  margin: 1em auto 1em;
   text-align: center;
+  padding: 0 4em;
 }
 
 .home p {

@@ -60,20 +60,17 @@ nav,
 }
 
 #drawer{
-  background-color: #000000;
-  position: fixed;
-  z-index: 1;
+  background-color: #ffffff;
 }
 
 #drawer-link a, #drawer span{
-  color: #fff;
+  color: #000000;
   font-size: 1.3em;
-  z-index: 2;
 }
 
 #drawer-link a:hover{
-  border-bottom: 1px solid #fff;
-  background-color: #000;
+  border-bottom: 1px solid #000;
+  background-color: rgb(255, 255, 255);
   /*padding: 10px;*/
 }
 

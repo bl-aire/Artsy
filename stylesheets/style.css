@@ -7,6 +7,7 @@ font-family: 'Rubik', sans-serif;*/
   margin: 0;
   padding: 0;
   border: 0;
+  max-width: 100%;
 }
 
 body {
@@ -88,24 +89,17 @@ nav,
   font-size: 1.5em;
 }
 
-/*.ul li a {
-  color: #292929;
-  text-decoration: none;
-  font-size: 1.2em;
-}
-
-.ul li a:hover {
-  border-bottom: 2px solid #000000;
-}
-
-.ul li img{
-  height: 1.8em;
-}
-*/
-
 .mdl-layout__content{
   position: relative;
   margin: 4em 0 0 0;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 
@@ -113,20 +107,14 @@ nav,
   font-family: "Clash Display", sans-serif;
   font-size: 3.5em;
   font-weight: 600;
-  margin: 1em auto 1em;
-  text-align: center;
-  padding: 0 0;
+  margin: 1em 0;
 }
 
 .home p {
   font-family: "Satoshi", sans-serif;
   font-size: 1.75em;
   font-weight: 500;
-  /*line-height: 44px;*/
   color: #292929;
-  text-align: center;
-  padding: 0 0;
-
 }
 
 .featured h3 {
@@ -141,7 +129,7 @@ nav,
 
 
 .container1, .container2, .container3 {
-  margin:2em 0 3em;
+  margin:2em auto 3em;
 }
 
 .featured h3{
@@ -628,10 +616,6 @@ footer {
   .footer{
     display: flex;
     justify-content: space-between;
-  }
-
-  .container1, .container2, .container3 {
-    margin:0 auto;
   }
 }
 

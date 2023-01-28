@@ -62,11 +62,13 @@ nav,
 #drawer{
   background-color: #000000;
   position: fixed;
+  z-index: 1;
 }
 
 #drawer-link a, #drawer span{
   color: #fff;
   font-size: 1.3em;
+  z-index: 2;
 }
 
 #drawer-link a:hover{

@@ -23,7 +23,7 @@ nav,
 .home,
 .container,
 .expore, .footer {
-  padding: 0 0;
+  padding: 0 2em;
 }
 
 #header{
@@ -636,8 +636,4 @@ footer {
     .newsletter button {
       margin-top: 2em;
     }
-
-    /*.footer .nil{
-      display: none;
-    }*/
   }

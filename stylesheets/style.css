@@ -30,6 +30,11 @@ nav,
   box-shadow: none;
 }
 
+header{
+  border: 1px solid rgb(255, 255, 255);
+  margin: 0 0 3em 0;
+}
+
 .logo {
   font-family: 'STIX Two Text', serif;
   font-size: 2em;
@@ -71,7 +76,6 @@ nav,
 #drawer-link a:hover{
   border-bottom: 1px solid #000;
   background-color: rgb(255, 255, 255);
-  /*padding: 10px;*/
 }
 
 #drawer span{

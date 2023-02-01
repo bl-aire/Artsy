@@ -17,7 +17,7 @@
 }
 
 
-.filter h2 {
+/*.filter h2 {
   font-family: Satoshi;
   font-size: 32px;
   font-weight: 500;
@@ -70,7 +70,7 @@
 
 .filter-all a:hover {
   border-bottom: 2px solid #000000;
-}
+}*/
 
 #name {
   font-family: 'Satoshi';

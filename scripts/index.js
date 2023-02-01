@@ -32,7 +32,7 @@ let img = document.getElementById("img");
     // Loop to access all rows
     for (let a of products) {
       card += 
-      `<a href="./detail.html" class="col-md-3 product-card">
+      `<a href="./detail.html" class="col-md-4" product-card">
         <div>
           <img id="img" src= ${a.url} alt="item">
           <p id="name">${a.name}</p>

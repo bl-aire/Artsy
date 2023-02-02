@@ -4,15 +4,11 @@
   padding: 4em 0;
 }
 
-  .products{
-    text-align: center;
-  }
-
 
 @media screen and (min-width: 768px) {}
 
 .products img {
-  width: 241px;
+  width: 280px;
   height: 280px;
 }
 
@@ -45,5 +41,5 @@
   border-radius: 15px;
   width: fit-content;
   padding: 10px;
-  margin: 1em 0 0 8px;
+  margin: 1em auto 1em;
 }

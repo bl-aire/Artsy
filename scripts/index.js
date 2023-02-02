@@ -32,13 +32,26 @@ let img = document.getElementById("img");
     // Loop to access all rows
     for (let a of products) {
       card += 
-      `<a href="./detail.html" class="col-md-4" product-card">
-        <div>
-          <img id="img" src= ${a.url} alt="item">
-          <p id="name">${a.name}</p>
-          <p id="price">$${a.price.usd}</p>
+      //`<a href="./detail.html" class="col-md-4" product-card">
+        //<div>
+          //<img id="img" src= ${a.url} alt="item">
+          //<p id="name">${a.name}</p>
+          //<p id="price">$${a.price.usd}</p>
+        //</div>
+     // </a>
+      
+      
+      `<a href="./detail.html" class="group col-md-4 product-card">
+        <div class="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-7 xl:aspect-h-8">
+          <img src="https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." class="h-full w-full object-cover object-center group-hover:opacity-75">
         </div>
-      </a>`;
+        <h3 class="mt-4 text-sm text-gray-700">Earthen Bottle</h3>
+        <p class="mt-1 text-lg font-medium text-gray-900">$48</p>
+      </a>`
+      
+      
+      
+      ;
     }
     // Setting innerHTML as tab variable
     document.getElementById("products").innerHTML = card;

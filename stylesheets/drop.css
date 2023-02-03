@@ -1,3 +1,7 @@
+.drop-main{
+    padding: 4em 2em 0;
+}
+
 .drop-container {
     margin-top: 4em;
     padding: 1em;
@@ -12,27 +16,28 @@
 
 .drops-header h4 {
     font-family: Satoshi;
-    font-size: 48px;
+    font-size: 2.3em;
     font-weight: 500;
-    line-height: 84px;
+    line-height: 1.3em;
 }
 
 .drops-header p {
     font-family: Satoshi;
-    font-size: 32px;
+    font-size: 1.2em;
     font-weight: 400;
-    line-height: 64px;
+    line-height: 3em;
     color: #616161;
 }
 
 .drops-header button {
     background: none;
     border: 1px solid #000;
-    padding: 0.02em 3.5em;
+    padding: 0.002em 3.5em;
     font-family: Satoshi;
-    font-size: 1.3em;
+    font-size: 1.2em;
+    margin: 1em 0 0 0;
     font-weight: 500;
-    line-height: 64px;
+    line-height: 3em;
     border-radius: 5px;
 }
 

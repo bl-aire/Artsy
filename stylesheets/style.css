@@ -64,19 +64,11 @@ header{
   font-size: 1.5em;
 }
 
-#drawer{
-  /*background-color: #ffffff;*/
-}
-
 #drawer-link a, #drawer span{
   color: #000000;
   font-size: 1.3em;
 }
 
-#drawer-link a:hover{
-  border-bottom: 1px solid #000;
-  background-color: rgb(255, 255, 255);
-}
 
 #drawer span{
   font-family: 'STIX Two Text', serif;

@@ -78,27 +78,31 @@
 
 .date {
     font-family: Satoshi;
-    font-size: 20px;
+    font-size: 1.5em;
     font-weight: 400;
-    line-height: 27px;
+    line-height: 2em;
 }
 
 .creator {
     font-family: Satoshi;
-    font-size: 24px;
+    font-size: 1.4em;
     font-weight: 500;
-    line-height: 38px;
+    line-height: 2em;
 }
 
 .creator-name {
     color: #006CA2;
 }
 
+.name {
+    line-height: 4em;
+}
+
 .drop-details button {
     font-family: Satoshi;
-    font-size: 20px;
+    font-size: 1.2em;
     font-weight: 400;
-    line-height: 31px;
+    line-height: 2em;
     color: #006CA2;
     border-bottom: 2px solid #006CA2;
     background: none;

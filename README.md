@@ -7,6 +7,8 @@ Artsy is a pet project I am building to hone my Frontend development skills. Wha
 - CSS
 - JavaScript
 - Bootstrap
+- TailwindCSS
+- Material design lite
 
 ## URL
 https://artsy-three.vercel.app

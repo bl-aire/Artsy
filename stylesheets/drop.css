@@ -115,7 +115,11 @@
 
 #footer-newsletter {
     position: relative;
-    top: 8em;
+    top: 7em;
+}
+
+.subscribe{
+    margin-top: 2em;
 }
 
 @media screen and (min-width: 768px) {
@@ -129,5 +133,9 @@
 
     .drop-details {
         margin: 0 1em 0 3em;
+    }
+
+    .email{
+        margin-top: 2em; /*CHECK THIS OUT*/
     }
 }

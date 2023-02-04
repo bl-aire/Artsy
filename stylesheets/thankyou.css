@@ -3,7 +3,7 @@
     background-position: 0;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 500px;
+    height: 100%;
 }
 
 .thanks {
@@ -11,7 +11,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 5em 2em;
+    padding: 5em 3em;
     text-align: center;
 }
 
@@ -19,12 +19,12 @@
     font-family: Satoshi;
     font-size: 2em;
     font-weight: 500;
-    line-height: 2em;
+    line-height: 1.5em;
 }
 
 .message {
     font-family: Satoshi;
     font-size: 1.5em;
     font-weight: 500;
-    line-height: 1em;
+    line-height: 1.7em;
 }

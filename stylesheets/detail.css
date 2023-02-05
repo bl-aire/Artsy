@@ -22,38 +22,39 @@
 
 .views {
   font-family: Satoshi;
-  font-size: 1.4em;
+  font-size: 1.3em;
   font-weight: 500;
-  line-height: 27px;
+  line-height: 1em;
+  margin-top: 0.5em;
 }
 
 .made-in {
   font-family: Satoshi;
-  font-size: 24px;
+  font-size: 1.4em;
   font-weight: 400;
-  line-height: 23px;
-  margin-top: 15px;
+  line-height: 1em;
+  margin-top: 0.5em;
 }
 
 .counter {
   font-family: Satoshi;
   font-size: 1.4em;
   font-weight: 500;
-  line-height: 45px;
+  line-height: 1.2em;
 }
 
 .border-bottom b {
   font-family: Satoshi;
   font-size: 1.7em;
   font-weight: 400;
-  line-height: 29px;
+  line-height: 1em;
 }
 
 .border-bottom span a {
   font-family: Satoshi;
   font-size: 1.5em;
   font-weight: 500;
-  line-height: 29px;
+  line-height: 1em;
   text-decoration: none;
   color: #4693ED;
 }
@@ -93,8 +94,8 @@
   font-family: 'Satoshi';
   font-style: normal;
   font-weight: 700;
-  font-size: 46px;
-  line-height: 80%;
+  font-size: 1.5em;
+  line-height: 70%;
   color: #333333;
   text-align: left;
   padding: 0 1.5em 0 0;
@@ -109,17 +110,21 @@
   border-radius: 15px;
   width: 90%;
   margin: 4em auto;
-  padding: 0.8em 2em;
+  padding: 1.8em 2em;
 }
 
-.circle img {
+.explore-more .text{
+  font-size: 1.5em;
+}
+
+/*.circle img {
   border: 1px solid #000000;
   margin: 0 0.4em;
   padding: 5px;
   height: 50px;
   width: 50px;
   border-radius: 50%;
-}
+}*/
 
 .gallery-card {
   display: flex;
@@ -141,13 +146,13 @@
 
 .g-img {
   height: 300px;
-  width: 300px;
+  width: 350px;
 
 }
 
-.love {
-  height: 40px;
-  width: 40px;
+.love, .g-cost img {
+  height: 35px;
+  width: 35px;
 }
 
 .g-details {
@@ -162,7 +167,7 @@
   font-family: Satoshi;
   font-size: 1.2em;
   font-weight: 500;
-  line-height: 31px;
+  line-height: 1.2em;
 }
 
 .g-cost {
@@ -174,7 +179,7 @@
   font-family: Satoshi;
   font-weight: 500;
   font-size: 1.2em;
-  line-height: 31px;
+  line-height: 1.2em;
   background-color: #3341C1;
   color: #FFFFFF;
   padding: 0.5em 1em;

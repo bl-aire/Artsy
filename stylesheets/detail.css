@@ -1,7 +1,7 @@
 /* PRODUCT DETAILS PAGE*/
 
 .detail-main{
-  padding: 5em 2em;
+  padding: 5em 1em;
 }
 
 .border-bottom:not(#exception) {
@@ -81,7 +81,7 @@
 
 #det-img {
   /*height: 700px;*/
-  width: 480px;
+  width: 500px;
 }
 
 .header {

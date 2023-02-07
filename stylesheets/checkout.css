@@ -1,8 +1,8 @@
 .w3-button {
     font-family: Satoshi;
-    font-size: 24px;
+    font-size: 1.2em;
     font-weight: 400;
-    line-height: 32px;
+    line-height: 1.2em;
     background: none;
     margin: 2em 0.3em 0 0.3em;
     color: #888888;
@@ -51,31 +51,31 @@
 
 .item_name {
     font-family: Satoshi;
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: 500;
-    line-height: 32px;
+    line-height: 1.2em;
     color: #292929;
 }
 
 .item_sub {
     font-family: Satoshi;
-    font-size: 24px;
+    font-size: 1.4em;
     font-weight: 400;
-    line-height: 32px;
+    line-height: 1.2em;
     color: #888888;
 }
 
 .item_size {
     color: #888888;
     font-family: Satoshi;
-    font-size: 20px;
+    font-size: 1.2em;
     font-weight: 400;
     line-height: 27px;
 }
 
 .buttons {
     font-family: Satoshi;
-    font-size: 20px;
+    font-size: 1.2em;
     font-weight: 400;
     line-height: 33px;
     color: #292929;
@@ -101,7 +101,7 @@
     display: flex;
     flex-direction: column;
     font-family: Satoshi;
-    font-size: 28px;
+    font-size: 1.2em;
     font-weight: 400;
     line-height: 38px;
 }
@@ -112,7 +112,7 @@
 
 .checkout-buttons button {
     background-color: #3341C1;
-    padding: 0.8em 3em;
+    padding: 0.7em 2em;
     color: #fff;
     font-family: Satoshi;
     font-size: 1.2em;
@@ -139,7 +139,7 @@ form{
     height: 100vh;
     margin: 1em 0;
     font-family: Satoshi;
-    font-size: 1.3em;
+    font-size: 1.1em;
     font-weight: 400;
     line-height: 35px;
 }

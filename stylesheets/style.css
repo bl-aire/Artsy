@@ -170,7 +170,7 @@ header{
 
 @keyframes fade {
   from {
-    opacity: 0.6;
+    opacity: 0;
   }
 
   to {
@@ -179,15 +179,13 @@ header{
 
 }
 
-.fade-in{
+.slide-in{
   position: relative;
   left: -600px;
-  /*width: 600px;
-  height: 370px;*/
   -webkit-animation: slide 0.5s forwards;
-  -webkit-animation-delay: 2s;
+  -webkit-animation-delay: 10s;
   animation: slide 0.5s forwards;
-  animation-delay: 0.51s;
+  animation-delay: 0.51;
 }
 
 @keyframes slide {

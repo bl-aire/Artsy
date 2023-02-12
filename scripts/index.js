@@ -68,4 +68,8 @@ function openDetails(checkout) {
   document.getElementById(checkout).style.display = "block"; 
 }
 
+//const div = document.getElementById("mobile-menu");
+//const toggle = () => div.classList.toggle("hidden");
+
+
 

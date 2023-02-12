@@ -179,6 +179,23 @@ header{
 
 }
 
+.fade-in{
+  position: relative;
+  left: -600px;
+  /*width: 600px;
+  height: 370px;*/
+  -webkit-animation: slide 0.5s forwards;
+  -webkit-animation-delay: 2s;
+  animation: slide 0.5s forwards;
+  animation-delay: 0.51s;
+}
+
+@keyframes slide {
+  100% {
+    left: 0;
+  }
+}
+
 .img__wrap {
   position: relative;
   height: 100%;
